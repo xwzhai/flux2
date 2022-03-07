@@ -4,4 +4,5 @@ namespace: monitoring
 resources:
   - namespace.yaml
   - repository.yaml
-  - release.yaml
+  - release-kube-state-metrics.yaml
+  - release-node-exporter.yaml
